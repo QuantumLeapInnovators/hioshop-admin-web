@@ -112,7 +112,9 @@ npm run build:prod 或者 sudo npm run build:prod
 加我个人微信时，请先 star。
 `<img width="500" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/contact.jpg"/>`
 
-### 编译环境
+### 注意事项
+
+#### 编译环境
 
 1. 根据 node 环境不同使用不同版本 package.json
 2. 机器安装 vue-cli
@@ -120,3 +122,9 @@ npm run build:prod 或者 sudo npm run build:prod
 ```
 	npm install -g @vue/cli
 ```
+
+#### 项目中配置
+
+- 七牛云上传
+
+  1. 根据自身区域不同在 src/config/api.js 选择不同区域的 http 上传服务器
