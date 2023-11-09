@@ -123,6 +123,13 @@ npm run build:prod 或者 sudo npm run build:prod
 	npm install -g @vue/cli
 ```
 
+#### 编译文件在 server 中的位置
+
+```
+ 1. cp dst/*   ../hioshop-server/www/static -r
+ 2.   mv ../hioshop-server/www/static/index.html ../hioshop-server/view/api/index_index.html
+```
+
 #### 项目中配置
 
 - 七牛云上传
